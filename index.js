@@ -11,13 +11,6 @@ sentence for every member of the musicians array. The function should return the
 array of new strings. */
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-/*function theBeatlesPlay(musicians, instruments) {
-  var theBeatles = []
-  for (let i = 0; i < musicians.length; i++) {
-    theBeatles.push(musicians[i] + ' plays ' + instruments[i]);
-  }
-  return theBeatles 
-}*/
 function theBeatlesPlay(players, instruments) {
     var allPlayers = [];
     for (var i=0; i < players.length; i++) {
@@ -25,9 +18,7 @@ function theBeatlesPlay(players, instruments) {
     }
     return allPlayers;
 }
-  //for (let j = 0; j < instruments.length; j++)
-  //if (musicians[i] === instruments[j]) 
-  
+
   /*Create a function `johnLennonFacts`. This function will accept one argument, an
 array of facts about John Lennon (note that it might not be exactly the
 following facts):Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
