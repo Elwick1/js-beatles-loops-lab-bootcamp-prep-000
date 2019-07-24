@@ -29,11 +29,7 @@ Return an array of strings with exclamation points.
   "He hated the sound of his own voice"
 ];*/ 
 
-function johnLennonFacts(facts) {
-}
-let facts = 0; while (facts === johnLennonFacts) {
-  console.log(facts + '!!!')  
-}
+
 
 /*Create a function iLoveTheBeatles which accepts a number as a parameter.
 The function should create a variable that stores an empty array.
