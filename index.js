@@ -11,14 +11,20 @@ sentence for every member of the musicians array. The function should return the
 array of new strings. */
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-function theBeatlesPlay(musicians, instruments) {
+/*function theBeatlesPlay(musicians, instruments) {
   var theBeatles = []
   for (let i = 0; i < musicians.length; i++) {
     theBeatles.push(musicians[i] + ' plays ' + instruments[i]);
   }
   return theBeatles 
+}*/
+function theBeatlesPlay(players, instruments) {
+    var allPlayers = [];
+    for (var i=0; i < players.length; i++) {
+        allPlayers.push(players[i] + " plays " + instruments[i]);
+    }
+    return allPlayers;
 }
-
   //for (let j = 0; j < instruments.length; j++)
   //if (musicians[i] === instruments[j]) 
   
