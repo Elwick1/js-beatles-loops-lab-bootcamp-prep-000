@@ -29,16 +29,7 @@ Return an array of strings with exclamation points.
   "He hated the sound of his own voice"
 ];*/ 
 
-/*function johnLennonFacts() {
-    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-    var newFacts = [];
-    var i = 0;
-    while (i < facts.length) {
-        newFacts.push(facts[i] +"!!!");
-        i++;
-    }
-    return newFacts;
-}*/
+
 function johnLennonFacts(facts) {
   var results = [];
   var count = 0;
@@ -48,6 +39,7 @@ function johnLennonFacts(facts) {
   }
   return results;
 }
+
 /*Create a function iLoveTheBeatles which accepts a number as a parameter.
 The function should create a variable that stores an empty array.
 Implement a do-while loop inside the function that adds "I love the Beatles!" to the empty array.
